@@ -17,7 +17,7 @@ const statTable = document.getElementById("statTable");
 
 // fetch from api
 fetch(
-  "https://api.projectrio.app/stats/?by_char=1&tag=legacymodestarsoff&by_user=1"
+  "https://api.projectrio.app/stats/?by_char=1&tag=starsoffseason8&by_user=1"
 )
   .then((response) => response.json())
   .then((data) => {
